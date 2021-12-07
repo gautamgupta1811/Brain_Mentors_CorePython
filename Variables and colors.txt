@@ -1,0 +1,21 @@
+Variable Names:
+
+1. It can contain only letters, numbers and _
+
+2. No special character such as ?,.'";[]{}!@#$%^&*()
+
+3. Variable name should be same as keyword or pre-defined function
+
+4. Should start with letters
+
+
+Colors:
+
+Pre defined function: Violet
+Keywords: orange
+strings: Green
+Comment/ Error: Red
+Output/User defined function names: blue
+Everything else: black
+
+

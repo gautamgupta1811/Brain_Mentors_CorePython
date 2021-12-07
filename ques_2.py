@@ -1,0 +1,5 @@
+a = input("Enter any string:")
+a = a.strip()
+print(a)
+a = a.lower()
+print(a)

@@ -1,0 +1,28 @@
+String Functions:
+
+upper: Converts string into upper case
+
+lower: Converts string into lower case
+
+title: Capitalize first letter of every word (word is 
+                                        space seperated)
+
+capitalize: Capitalize first letter of entire string
+
+isdigit: Returns True if string consists of only numbers 
+         otherwise returns false  
+
+isalpha: Returns True if string consists of only alphabets
+	 otheris4 returns false
+
+isalnum: Returnss true if string consists of alphabets, numbers 
+	 or combination of two else returns false
+
+count: count and return the occurenece of substring
+
+endswith: Returns true if string endswith given substring else return False
+
+startswith: Returns true id string startswith given substring else return False
+
+strip/lstrip/rstrip: remove leading or tailing substring. If no value is provided 
+		    it removes space.
