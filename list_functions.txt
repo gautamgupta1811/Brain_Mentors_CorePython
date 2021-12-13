@@ -1,0 +1,33 @@
+append: It appends single element at last index of list
+
+extend: It appends multiple element at last index of list
+
+insert: used for adding element at given position in list
+
+count: helps in counting occurence of elements in a element
+
+clear: empty the list
+
+index: used for finding index number of the element
+
+pop: removes the element at specified index number and 
+    returns it. By default it removes last element
+
+remove: removes specified element from list
+
+
+ques: you have to find data from a list enclosed inside 
+brackets
+["we", "are", "(", "learning" , "python","programming", ")"]
+
+ques: you have a string. find whatever is written before @
+
+fgvhnfjmk@dfgvhbjnkm
+
+ques: change seperation between string from space to next line
+"this is some programming class"
+this
+is
+some 
+programming
+class
