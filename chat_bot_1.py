@@ -1,5 +1,6 @@
 import webbrowser
 import datetime
+import os
 
 hello_intent = ["hello", "heyy", "good morning", "good afternoon", "hi", "hii"]
 bye_intent = ["bye", "see you", "talk to you later", "ttyl", "soon", "later"]
@@ -20,5 +21,8 @@ while True:
         webbrowser.open("www.google.com")
     elif "youtube" in msg.lower():
         webbrowser.open("www.youtube.com")
+    elif "song" or "play" in msg.lower():
+        song_list = os.listdir(r"D:\songs")
+        os.startfile(r"D:\songs\\"+song_list[0])
     else:
         print("I don't understand")
