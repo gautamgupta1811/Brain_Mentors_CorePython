@@ -1,6 +1,7 @@
 import webbrowser
 import datetime
 import os
+import random
 
 hello_intent = ["hello", "heyy", "good morning", "good afternoon", "hi", "hii"]
 bye_intent = ["bye", "see you", "talk to you later", "ttyl", "soon", "later"]
@@ -23,6 +24,6 @@ while True:
         webbrowser.open("www.youtube.com")
     elif "song" or "play" in msg.lower():
         song_list = os.listdir(r"D:\songs")
-        os.startfile(r"D:\songs\\"+song_list[0])
+        os.startfile(r"D:\songs\\"+random.choice(song_list))
     else:
         print("I don't understand")
