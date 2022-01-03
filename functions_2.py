@@ -32,13 +32,17 @@ def default_arg_value(a, b, c=0):
 default_arg_value(50, 34)
 
 # def print(*value, sep=" ", end="\n")
-
+# functions that can accept upto 40 keywords
+# if sep = "+" delimetor  = "+"
 def pass_keyword_arg(**kwargs):
     print(kwargs)
 
 pass_keyword_arg(a="23", b=45)
 
+#
+
 
 # create  a function to accept user input values which can any number of values, find its sum
 
 # create a a_m_counter to count occurence a and m in a string
+
