@@ -18,3 +18,6 @@ def file_save():
     pass
 
 # os.listdir()
+
+# os.remove("new_img.jpg")
+
