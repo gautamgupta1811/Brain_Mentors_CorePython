@@ -10,3 +10,5 @@ for i in range(360):
     pen.color(colors[i%5])
     pen.forward(i)
     pen.left(59)
+
+# create a star using turtle
