@@ -72,7 +72,3 @@ while True:
 
 
 
-# score
-# game over
-# life
-# speed of game
