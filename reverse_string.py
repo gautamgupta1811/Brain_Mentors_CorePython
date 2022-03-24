@@ -1,7 +1,7 @@
 class ReverseString:
     def __init__(self, string):
         self.string = string
-        self.reverse_string  = ""
+        self.reverse_string = ""
         self.index = 0
 
     def reverse(self):
@@ -15,3 +15,5 @@ class ReverseString:
     
 string = input("Enter string: ")
 print(ReverseString(string).reverse())
+
+# python coding

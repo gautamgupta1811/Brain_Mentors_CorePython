@@ -5,7 +5,7 @@ import os
 #
 #
 # ## checking if a file or directory exist
-# print(os.path.exists("new directory"))
+print(os.path.exists("new directory"))
 #
 #
 # ## delete a dir
@@ -13,4 +13,4 @@ import os
 
 ## startfile
 
-os.startfile("gcd_of_two_numbers.py")
+# os.startfile("gcd_of_two_numbers.py")

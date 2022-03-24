@@ -1,0 +1,5 @@
+file = open("Variables and colors.txt", "r+")
+data = file.read()
+file.seek(0)
+file.write(data.upper())
+file.close()

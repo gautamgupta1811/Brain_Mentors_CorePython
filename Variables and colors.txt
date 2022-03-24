@@ -1,21 +1,42 @@
-Variable Names:
+VARIABLE NAMES:
 
-1. It can contain only letters, numbers and _
+1. IT CAN CONTAIN ONLY LETTERS, NUMBERS AND _
 
-2. No special character such as ?,.'";[]{}!@#$%^&*()
+2. NO SPECIAL CHARACTER SUCH AS ?,.'";[]{}!@#$%^&*()
 
-3. Variable name should be same as keyword or pre-defined function
+3. VARIABLE NAME SHOULD BE SAME AS KEYWORD OR PRE-DEFINED FUNCTION
 
-4. Should start with letters
+4. SHOULD START WITH LETTERS
 
 
-Colors:
+COLORS:
 
-Pre defined function: Violet
-Keywords: orange
-strings: Green
-Comment/ Error: Red
-Output/User defined function names: blue
-Everything else: black
+PRE DEFINED FUNCTION: VIOLET
+KEYWORDS: ORANGE
+STRINGS: GREEN
+COMMENT/ ERROR: RED
+OUTPUT/USER DEFINED FUNCTION NAMES: BLUE
+EVERYTHING ELSE: BLACK
+
+
+VARIABLE NAMES:
+
+1. IT CAN CONTAIN ONLY LETTERS, NUMBERS AND _
+
+2. NO SPECIAL CHARACTER SUCH AS ?,.'";[]{}!@#$%^&*()
+
+3. VARIABLE NAME SHOULD BE SAME AS KEYWORD OR PRE-DEFINED FUNCTION
+
+4. SHOULD START WITH LETTERS
+
+
+COLORS:
+
+PRE DEFINED FUNCTION: VIOLET
+KEYWORDS: ORANGE
+STRINGS: GREEN
+COMMENT/ ERROR: RED
+OUTPUT/USER DEFINED FUNCTION NAMES: BLUE
+EVERYTHING ELSE: BLACK
 
 
