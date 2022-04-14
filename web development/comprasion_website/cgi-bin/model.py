@@ -2,13 +2,20 @@ import bs4
 import urllib.request as url
 
 def data_reterival(product):
-    path = "https://www.flipkart.com/search?q=".format("%20".join(product.split()))
+    path = "https://www.flipkart.com/search?q={}".format("+".join(product.split()))
+    print(path)
     http = url.urlopen(path)
     page = bs4.BeautifulSoup(http, features="lxml")
-    print(page.find("a", class_="s1Q9rs"))
-    if page.find("a", class_="s1Q9rs"):
-        print("card format")
-    elif page.find("div",class_="_4rR01T"):
-        print("list format")
-
-data_reterival("realme 3")
+    if page.find("div",class_="_4rR01T"):
+        name = page.find('div', class_="_4rR01T").text
+        price = page.find('div', class_="_1_WHN1").text
+        ul = page.find('ul', class_="_1xgFaf")
+        li_tag = ul.find_all("li", class_="rgWa7D")
+        for li in li_tag:
+            print(li.text)
+        
+    elif page.find("a", class_="s1Q9rs"):
+        a = page.find("a", class_="s1Q9rs")
+        link = "https://www.flipkart.com" + a["href"]
+        # to be completed by Mehak
+data_reterival("apple x")

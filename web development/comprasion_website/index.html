@@ -6,7 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Compare</title>
 </head>
-<body>
-    
+<body style="background-color: whitesmoke;">
+    <h1 style="text-align: center; color: blue;">Compare Product</h1>
+    <form action="cgi-bin/compare.py">
+        <table style="border-spacing: 15px; border-collapse: seperate;">
+            <tr style="padding: 15px; margin: 45px;">
+                <th>
+                    Product
+                </th>
+                <th>
+                    Name
+                </th>
+            </tr>
+            <tr style="padding: 15px; margin: 45px">
+                <td>
+                    <label for="prod_1">Enter name of first product</label>
+                </td>
+                <td>
+                    <input type="text" name="prod_1">
+                </td>
+
+            </tr>
+            <tr style="border-spacing: 15px; border-collapse: seperate;">
+                <td>
+                    <label for="prod_2">Enter name of second product</label>
+                </td>
+                <td>
+                    <input type="text" name="prod_2">
+                </td>
+            </tr>
+            <tr style="padding: 15px;">
+                <td>
+
+                </td>
+                <td>
+                    <input type="submit" name="submit">
+                </td>
+            </tr>
+
+        </table>
+    </form>
 </body>
 </html>
