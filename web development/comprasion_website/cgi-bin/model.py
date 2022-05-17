@@ -11,8 +11,10 @@ def data_reterival(product):
         price = page.find('div', class_="_1_WHN1").text
         ul = page.find('ul', class_="_1xgFaf")
         li_tag = ul.find_all("li", class_="rgWa7D")
+        li_data = []
         for li in li_tag:
-            print(li.text)
+            li_data.append(li.text)
+        return name, price[1:], li_data
         
     elif page.find("a", class_="s1Q9rs"):
         a = page.find("a", class_="s1Q9rs")
